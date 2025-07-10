@@ -15,7 +15,8 @@
 
 <body>
 
-    <aside src="./img/Logo.svg" alt="logo do CodeConnect">
+    <aside>
+        <img src="./img/Logo.svg" alt="logo do CodeConnect">
         <nav>
             <ul class="lista-links">
 
@@ -33,7 +34,7 @@
         <div class="container-upload-imagem">
 
             <div class="container-imagem">
-                <img src="./img/imagem1.png" alt="" class="main-ima">
+                <img src="./img/imagem1.png" alt="" class="main-imagem">
             </div>
 
             <button id="upload-btn">Carregar Imagem</button>
@@ -59,9 +60,9 @@
                     </div>
                     <div>
                         <label for="tag">Tags</label>
-                        <input type="text" id="tag" name="tag" placeholder="Digite as Tags"/>
+                        <input type="text" id="input-tags" name="tag" placeholder="Digite as Tags"/>
                     </div>
-                    <ul class="lista-tags">
+                    <ul class="lista-tags" id="lista-tags">
                         <li class="tag">
                             <p>Front-end</p>
                             <img src="./img/close-black.svg" alt="">
